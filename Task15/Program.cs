@@ -6,7 +6,8 @@
 1 -> нет
 */
 
-
+void Task15()
+{
 Console.Write("Введите цифру, обозначающую день недели: ");
 int NumberWeek = int.Parse(Console.ReadLine());
 if (NumberWeek == 6 || NumberWeek == 7)
@@ -15,3 +16,5 @@ else if (NumberWeek == 1 || NumberWeek == 2 || NumberWeek == 3 || NumberWeek == 
     Console.WriteLine($"{NumberWeek} -> нет");
 else 
     Console.WriteLine("Error");
+}
+Task15();
