@@ -8,7 +8,8 @@
 32679 -> 6
 */
 
-
+void Task13()
+{
 int a = (new Random().Next(0, 1000));
 if (a > 100)
 {
@@ -19,6 +20,9 @@ if (a > 100)
 else
 
     Console.WriteLine($"{a} -> третьей цифры нет");
+}
+
+Task13();
 
 
 
